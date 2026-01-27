@@ -1,8 +1,31 @@
-console.log("console log");
-console.warn("warning");
-console.error("error");
-console.info("info");
-console.log("%cHello", "color:red");
-// console.clear(); to clear console
-console.error("error", 2 - 1);
-console.table({ name: "Muntasir", age: 69 });
+let vat = 5 / 100;
+let baseP = 100;
+
+console.log(
+  "Base price:",
+  baseP,
+  "Total price after VAT:",
+  baseP + baseP * vat,
+);
+baseP = baseP + 50;
+console.log(
+  "Base price:",
+  baseP,
+  "Total price after VAT:",
+  baseP + baseP * vat,
+);
+baseP = baseP + 50;
+console.log(
+  "Base price:",
+  baseP,
+  "Total price after VAT:",
+  baseP + baseP * vat,
+);
+baseP = baseP + 50;
+console.log(
+  "Base price:",
+  baseP,
+  "Total price after VAT:",
+  baseP + baseP * vat,
+);
+baseP = baseP + 50;
